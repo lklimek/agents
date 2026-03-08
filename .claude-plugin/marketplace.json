@@ -7,7 +7,7 @@
   },
   "metadata": {
     "description": "AI agent plugins for blockchain developers. Skills, agents, and tools for the Dash Platform ecosystem and beyond.",
-    "version": "1.0.51"
+    "version": "1.0.52"
   },
   "plugins": [
     {
@@ -62,13 +62,20 @@
         "repo": "lklimek/memcan"
       },
       "version": "0.28.1",
-      "description": "Persistent memory for Claude Code — save and recall learnings, decisions, preferences across sessions",
+      "description": "Persistent memory for Claude Code — save and recall learnings, decisions, preferences across sessions.",
       "author": {
         "name": "lklimek",
         "url": "https://github.com/lklimek"
       },
       "repository": "https://github.com/lklimek/memcan",
       "license": "MIT",
+      "keywords": [
+        "memory",
+        "lancedb",
+        "ollama",
+        "persistent",
+        "mcp"
+      ],
       "category": "productivity",
       "tags": [
         "memory",
@@ -76,7 +83,8 @@
         "ollama",
         "persistent",
         "mcp"
-      ]
+      ],
+      "mcpServers": "./.mcp.json"
     }
   ]
 }
