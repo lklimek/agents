@@ -54,6 +54,29 @@
         "workflow",
         "productivity"
       ]
+    },
+    {
+      "name": "memcan",
+      "source": {
+        "source": "github",
+        "repo": "lklimek/memcan"
+      },
+      "version": "0.28.1",
+      "description": "Persistent memory for Claude Code — save and recall learnings, decisions, preferences across sessions",
+      "author": {
+        "name": "lklimek",
+        "url": "https://github.com/lklimek"
+      },
+      "repository": "https://github.com/lklimek/memcan",
+      "license": "MIT",
+      "category": "productivity",
+      "tags": [
+        "memory",
+        "lancedb",
+        "ollama",
+        "persistent",
+        "mcp"
+      ]
     }
   ]
 }

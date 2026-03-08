@@ -9,6 +9,7 @@ developers and productive dev workflows.
 |--------|-------------|----------|
 | [claudash](https://github.com/lklimek/claudash) | Dash Platform development skills with hybrid lexicon-based documentation lookup | Blockchain |
 | [claudius](https://github.com/lklimek/claudius) | Opinionated dev lifecycle toolkit with agents and skills | Productivity |
+| [memcan](https://github.com/lklimek/memcan) | Persistent memory — save and recall learnings, decisions, preferences across sessions | Productivity |
 
 ## Installation
 
@@ -22,6 +23,7 @@ developers and productive dev workflows.
 # Install individual plugins
 /plugin install claudash@lklimek
 /plugin install claudius@lklimek
+/plugin install memcan@lklimek
 ```
 
 ## For project teams
@@ -56,7 +58,8 @@ refreshes the catalog; individual plugins update independently.
 ```
 lklimek/agents          ← this repo (marketplace catalog)
   ├── claudash           → lklimek/claudash (Dash Platform skills)
-  └── claudius           → lklimek/claudius (dev lifecycle toolkit)
+  ├── claudius           → lklimek/claudius (dev lifecycle toolkit)
+  └── memcan             → lklimek/memcan (persistent memory)
 ```
 
 Each plugin lives in its own repository with independent versioning. This
