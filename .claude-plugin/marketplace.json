@@ -7,7 +7,7 @@
   },
   "metadata": {
     "description": "AI agent plugins for blockchain developers. Skills, agents, and tools for the Dash Platform ecosystem and beyond.",
-    "version": "1.0.138"
+    "version": "1.0.139"
   },
   "plugins": [
     {
@@ -16,7 +16,7 @@
         "source": "github",
         "repo": "lklimek/claudash"
       },
-      "version": "0.4.0",
+      "version": "0.4.1",
       "description": "Skills for Dash Platform developers — data contracts, Rust SDK, JS SDK, and API lexicon",
       "author": {
         "name": "lklimek"
