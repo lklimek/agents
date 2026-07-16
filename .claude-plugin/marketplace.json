@@ -7,7 +7,7 @@
   },
   "metadata": {
     "description": "AI agent plugins for blockchain developers. Skills, agents, and tools for the Dash Platform ecosystem and beyond.",
-    "version": "1.0.158"
+    "version": "1.0.159"
   },
   "plugins": [
     {
@@ -39,7 +39,7 @@
         "source": "github",
         "repo": "lklimek/claudius"
       },
-      "version": "5.9.0",
+      "version": "5.10.0",
       "description": "Collection of specialized development agents and skills for Claude Code",
       "author": {
         "name": "lklimek",
