@@ -7,7 +7,7 @@
   },
   "metadata": {
     "description": "AI agent plugins for blockchain developers. Skills, agents, and tools for the Dash Platform ecosystem and beyond.",
-    "version": "1.0.184"
+    "version": "1.0.185"
   },
   "plugins": [
     {
@@ -39,7 +39,7 @@
         "source": "github",
         "repo": "lklimek/claudius"
       },
-      "version": "7.7.0",
+      "version": "8.0.0",
       "description": "Collection of specialized development agents and skills for Claude Code",
       "author": {
         "name": "lklimek",
@@ -53,8 +53,7 @@
         "agents",
         "workflow",
         "productivity"
-      ],
-      "mcpServers": "./.claude-plugin/.mcp.json"
+      ]
     },
     {
       "name": "memcan",
